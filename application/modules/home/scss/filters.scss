@@ -1,0 +1,32 @@
+#filters{
+	width: 100%;
+
+	& > .mdl-card__title {
+	  color: #fff;
+	  height: 176px;
+	  background: url('https://source.unsplash.com/TO69trRWlrI/500x300/') center / cover;
+
+	  h2 {
+	  	background: rgba(0, 0, 0, 0.58);
+    	padding: 11px;
+	  }
+	}
+
+	& > .mdl-card__supporting-text {
+		padding: 0;
+		width: 100%;
+	}
+
+	table {
+		width: 100%;
+		tbody {
+			cursor: pointer;
+
+			.active {
+				    background: #f7a265;
+				    color: white;
+				    border: none;
+			}
+		}
+	}
+}
