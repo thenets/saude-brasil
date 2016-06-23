@@ -70,7 +70,7 @@
                   color: '#ff6b03',
                   fillColor: '#ffa100',
                   fillOpacity: 0.5
-              }).addTo(mymap);
+              }).bindPopup(estado[4]).addTo(mymap);
             });
           });
         }

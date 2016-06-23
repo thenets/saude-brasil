@@ -11,19 +11,22 @@
       </thead>
       <tbody>
         <tr>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoIDH')">IDH dos estado</td>
+        </tr>
+        <tr>
           <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">População por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric">Quantidade de hospitais por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Quantidade de hospitais por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric">Postos de saúde por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Postos de saúde por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric">Médicos com atendimento particular por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Médicos com atendimento particular por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric">Médicos com atendimento público por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Médicos com atendimento público por estado</td>
         </tr>
       </tbody>
     </table>
