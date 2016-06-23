@@ -246,4 +246,47 @@ class Api extends CI_Controller {
 
     echo json_encode($out);
   }
+
+
+
+
+
+
+
+
+  /* Municipios
+  ==================================================================== */
+  public function municipios_leitos() {
+    $result = $this->db->query('CALL municipio_leito()')->result();
+
+    $out = '';
+    foreach ($result as $key => $value):
+      $out .= '<tr>';
+      $out .= '  <td class="mdl-data-table__cell--non-numeric">'.($key+1).'.</td>';
+      $out .= '  <td>'.$value->{'nome_mun'}.'.</td>';
+      $out .= '  <td>'.$value->{'estado'}.'.</td>';
+      $out .= '  <td>'.$value->{'populacao_mun'}.'.</td>';
+      $out .= '  <td>'.round($value->{'MAX(razao_leito_habitante)'}, 2).'.</td>';
+      $out .= '</tr>';
+    endforeach;
+
+    echo $out;
+  }
+
+  public function municipios_medicos() {
+    $result = $this->db->query('CALL municipio_medico()')->result();
+
+    $out = '';
+    foreach ($result as $key => $value):
+      $out .= '<tr>';
+      $out .= '  <td class="mdl-data-table__cell--non-numeric">'.($key+1).'.</td>';
+      $out .= '  <td>'.$value->{'nome_mun'}.'.</td>';
+      $out .= '  <td>'.$value->{'estado'}.'.</td>';
+      $out .= '  <td>'.$value->{'populacao_mun'}.'.</td>';
+      $out .= '  <td>'.round($value->{'MIN(num_medico)'}, 2).'.</td>';
+      $out .= '</tr>';
+    endforeach;
+
+    echo $out;
+  }
 }
