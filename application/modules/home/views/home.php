@@ -11,7 +11,7 @@
       <home>Carregando...</home>
     </div>
 
-    <div class="mdl-cell mdl-cell--8-col">
+    <div class="mdl-cell mdl-cell--8-col hidden">
       <div id="post" class="hidden">
         <div class="mdl-card mdl-shadow--2dp">
           <div class="mdl-card__title">

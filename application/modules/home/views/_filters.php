@@ -4,7 +4,7 @@
   </div>
   <div class="mdl-card__supporting-text">
     <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-      <thead>
+      <thead class="hidden">
         <tr>
           <th class="mdl-data-table__cell--non-numeric">Filtros</th>
         </tr>
@@ -17,16 +17,13 @@
           <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">População por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Quantidade de hospitais por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoLeitos')">Quantidade de leitos por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Postos de saúde por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosParticular')">Médicos com atendimento particular por estado</td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Médicos com atendimento particular por estado</td>
-        </tr>
-        <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">Médicos com atendimento público por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosPublico')">Médicos com atendimento público por estado</td>
         </tr>
       </tbody>
     </table>
