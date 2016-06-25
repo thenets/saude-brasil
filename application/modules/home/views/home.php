@@ -10,7 +10,7 @@
       <br>
 
       <!-- Tabs municípios -->
-      <div id="municipios">
+      <div id="municipios" class="hidden">
         <div class="mdl-card mdl-shadow--2dp">
           <div class="mdl-card__title">
             <h2 class="mdl-card__title-text title">Rank dos melhores municípios</h2>
@@ -70,18 +70,29 @@
       <home>Carregando...</home>
 
       <br>
-      <div id="post" class="hidden">
-        <div class="mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__title">
-            <h2 class="mdl-card__title-text title">Welcome</h2>
+      <div class="hidden">
+        <div id="post" class="hidden">
+          <div class="mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text title">Welcome</h2>
+            </div>
+            <div class="mdl-card__supporting-text content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Mauris sagittis pellentesque lacus eleifend lacinia...
+            </div>
           </div>
-          <div class="mdl-card__supporting-text content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris sagittis pellentesque lacus eleifend lacinia...
-          </div>
-        </div>
-      </div><!-- /#post -->
+        </div><!-- /#post -->
+      </div><!-- /.hidden -->
     </div>
 
   </div>  
+</div>
+
+
+<!-- IMAGES PRE-LOAD -->
+<div id="preloader">
+  <img src="https://source.unsplash.com/wiyl0_FGGKo/500x300/" width="1" height="1" />
+  <img src="https://source.unsplash.com/9cx4-QowgLc/500x300/" width="1" height="1" />
+  <img src="https://source.unsplash.com/V5QILBs4jxA/500x300/" width="1" height="1" />
+  <img src="https://source.unsplash.com/OQMZwNd3ThU/500x300/" width="1" height="1" />
 </div>

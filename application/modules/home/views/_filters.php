@@ -11,19 +11,29 @@
       </thead>
       <tbody>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoIDH')">IDH dos estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoIDH')">
+            <i class="fa fa-medkit" aria-hidden="true"></i> IDH dos estado
+          </td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">População por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoPopulacao')">
+            <i class="fa fa-globe" aria-hidden="true"></i> População por estado
+          </td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoLeitos')">Quantidade de leitos por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoLeitos')">
+            <i class="fa fa-bed" aria-hidden="true"></i> Quantidade de leitos por estado
+          </td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosParticular')">Médicos com atendimento particular por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosParticular')">
+            <i class="fa fa-user-md" aria-hidden="true"></i> Médicos com atendimento particular por estado
+          </td>
         </tr>
         <tr>
-          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosPublico')">Médicos com atendimento público por estado</td>
+          <td class="mdl-data-table__cell--non-numeric" (click)="filter_remote('estadoMedicosPublico')">
+            <i class="fa fa-user-md" aria-hidden="true"></i> Médicos com atendimento público por estado
+          </td>
         </tr>
       </tbody>
     </table>

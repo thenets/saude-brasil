@@ -52,7 +52,7 @@ class Api extends CI_Controller {
 
     $out->estados = $this->getEstadosLocalizacao();
 
-    $out->post = "São Paulo continua sendo o estado mais populoso do Brasil com crescimento acelerado, enquanto Roraima é que menos cresce em termos de população.<br>No total por região, o sudeste possui uma população de 84.465.579, o nordeste 55.794.694, sul 28.795.762, norte 16.983.485 e centro-oeste 11.814.376.";
+    $out->post = '...';
 
 
     // Obtém dados do banco
@@ -94,7 +94,7 @@ class Api extends CI_Controller {
 
     $out->estados = $this->getEstadosLocalizacao();
 
-    $out->post = "...";
+    $out->post = 'Índice de Desenvolvimento Humano (IDH) é uma medida comparativa usada para classificar os países pelo seu grau de "desenvolvimento humano" e para ajudar a classificar os países como desenvolvidos (desenvolvimento humano muito alto), em desenvolvimento (desenvolvimento humano médio e alto) e subdesenvolvidos (desenvolvimento humano baixo). A estatística é composta a partir de dados de expectativa de vida ao nascer, educação e PIB (PPC) per capita (como um indicador do padrão de vida) recolhidos em nível nacional. Cada ano, os países membros da ONU são classificados de acordo com essas medidas. O IDH também é usado por organizações locais ou empresas para medir o desenvolvimento de entidades subnacionais como estados, cidades, aldeias, etc.<br>O índice foi desenvolvido em 1990 pelos economistas Amartya Sen e Mahbub ul Haq, e vem sendo usado desde 1993 pelo Programa das Nações Unidas para o Desenvolvimento (PNUD) no seu relatório anual.';
 
 
     // Obtém dados do banco
