@@ -49,9 +49,8 @@
         // ==============================================================================
         this.filter_remote = function (api_method) {
           console.log(this);
-          limparMapa();
-
           $.getJSON( BASE_URL+"api/"+api_method, function( json ) {
+            limparMapa();
 
             // Filter
             $('#filters .mdl-card__title').attr('style', 'background-image: url("https://source.unsplash.com/'+json.imagem+'/500x300/")');
